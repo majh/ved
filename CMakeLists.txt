@@ -31,3 +31,5 @@ target_link_libraries(ved event)
 include_directories(${CMAKE_CURRENT_SOURCE_DIR}/../module/fmt/include)
 include_directories(${CMAKE_CURRENT_SOURCE_DIR}/../module/spdlog/include)
 
+add_subdirectory(${CMAKE_CURRENT_SOURCE_DIR}/module/catch2)
+add_subdirectory (test.d)
