@@ -1,0 +1,12 @@
+[submodule "module/catch2"]
+	path = module/catch2
+	url = https://github.com/catchorg/Catch2.git
+[submodule "module/fmt"]
+	path = module/fmt
+	url = https://github.com/fmtlib/fmt.git
+[submodule "module/spdlog"]
+	path = module/spdlog
+	url = https://github.com/gabime/spdlog.git
+[submodule "module/nlohmann"]
+	path = module/nlohmann
+	url = https://github.com/nlohmann/json.git
